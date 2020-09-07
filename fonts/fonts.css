@@ -1,0 +1,17 @@
+@font-face {
+    src: url(../fonts/Inter/Inter-Regular.woff2) format('woff2'), url(../fonts/Inter/Inter-Bold.woff) format('woff');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../fonts/Inter/Inter-Bold.woff2) format('woff2'), url(../fonts/Inter/Inter-Bold.woff) format('woff');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url(../fonts/Suisse_intl/Suisse_Intl_Book.ttf) format("truetype"), url(../fonts/Suisse_intl/Suisse_Intl_Book.woff) format('woff'), url(../fonts/Suisse_intl/Suisse_IntlBook.woff2) format('woff2');
+    font-family: 'Suisse Intl';
+    font-weight: normal;
+}

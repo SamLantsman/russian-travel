@@ -1,0 +1,9 @@
+.lead__picture {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 984px;
+    max-height: 615px;
+    margin: auto;
+}

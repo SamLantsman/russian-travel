@@ -1,0 +1,6 @@
+.places__card-image {
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+}

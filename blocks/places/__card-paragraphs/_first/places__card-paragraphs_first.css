@@ -1,0 +1,8 @@
+.places__card-paragraphs_first {
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.places__card-paragraphs_first:last-of-type {
+    padding-bottom: 0;
+}

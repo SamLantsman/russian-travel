@@ -1,0 +1,10 @@
+.places__website-heading {
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 12px;
+    color: #AAAAAA;
+    align-self: end;
+    max-width: 460px;
+    letter-spacing: 2.4px;
+}

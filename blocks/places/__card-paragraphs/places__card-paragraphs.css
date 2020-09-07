@@ -1,0 +1,8 @@
+.places__card-paragraphs {
+    max-height: 965px;
+    max-width: 484px;
+    grid-column: 2;
+    grid-row: 2;
+    box-sizing: border-box;
+    max-width: 484px;
+}

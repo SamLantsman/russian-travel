@@ -1,0 +1,15 @@
+.places__card {
+    display: grid;
+    max-width: 984px;
+    gap: 48px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(34px, 484px));
+    padding-bottom: 80px;
+    margin: 0 auto;
+    grid-template-areas: "places__card-title places__card-website" "places__card-image place__card-paragraphs";
+    font-size: 18px;
+    line-height: 163%;
+}
+
+.places__card:last-of-type {
+    padding-bottom: 0;
+}
