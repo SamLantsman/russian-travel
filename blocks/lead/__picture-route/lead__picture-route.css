@@ -1,0 +1,30 @@
+.lead__picture-route {
+    position: absolute;
+    z-index: 1;
+    top: 90.21px;
+    left: 23.27px;
+    width: 95.23%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__picture-route {
+        top: 85.07px;
+        left: 21.9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__picture-route {
+        top: 70.41px;
+        left: 18.16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__picture-route {
+        top: 41.83px;
+        left: 13.5px;
+        right: 18.37px;
+        bottom: 85.14px;
+    }
+}

@@ -1,15 +1,30 @@
-.page {
-    background-color: #2A2C2F;
-    max-width: 1280px;
-    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
-    padding: 28px 48px 24px 48px;
-    color: white;
-}
+    .page {
+        background-color: #2A2C2F;
+        max-width: 1280px;
+        font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        padding: 28px 48px 24px 48px;
+        color: white;
+        z-index: -2;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .page {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .page {
+            padding: 0;
+            max-width: 768px;
+        }
+    }

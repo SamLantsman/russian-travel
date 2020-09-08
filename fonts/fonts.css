@@ -1,17 +1,20 @@
 @font-face {
-    src: url(../fonts/Inter/Inter-Regular.woff2) format('woff2'), url(../fonts/Inter/Inter-Bold.woff) format('woff');
+    src: local('Inter') url(../fonts/Inter/Inter-Regular.woff2) format('woff2'), url(../fonts/Inter/Inter-Regular.woff) format('woff');
     font-family: 'Inter';
+    font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    src: url(../fonts/Inter/Inter-Bold.woff2) format('woff2'), url(../fonts/Inter/Inter-Bold.woff) format('woff');
+    src: local('Inter') url(../fonts/Inter/Inter-Bold.woff2) format('woff2'), url(../fonts/Inter/Inter-Bold.woff) format('woff');
     font-family: 'Inter';
+    font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    src: url(../fonts/Suisse_intl/Suisse_Intl_Book.ttf) format("truetype"), url(../fonts/Suisse_intl/Suisse_Intl_Book.woff) format('woff'), url(../fonts/Suisse_intl/Suisse_IntlBook.woff2) format('woff2');
-    font-family: 'Suisse Intl';
-    font-weight: normal;
+    src: local('Inter') url(../fonts/Inter/Inter-Black.woff2) format('woff2'), url(../fonts/Inter/Inter-Black.woff) format('woff');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: black;
 }

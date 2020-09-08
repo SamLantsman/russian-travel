@@ -4,3 +4,23 @@
     padding-right: calc(174px - 48px);
     max-width: 984px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    .places {
+        padding: 0;
+    }
+}

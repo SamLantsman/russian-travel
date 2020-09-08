@@ -15,8 +15,27 @@
     background-color: #2a2c2f;
     opacity: 0.3;
     transition: opacity 0.3s;
+    z-index: 0;
 }
 
 .cover:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    .cover {
+        margin-top: 64px;
+    }
 }

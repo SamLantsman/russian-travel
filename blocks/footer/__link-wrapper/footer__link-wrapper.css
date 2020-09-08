@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 743px) {
+    .footer__link-wrapper {
+        flex-direction: column;
+    }
+}
