@@ -1,4 +1,14 @@
 .header__lang-link {
     color: white;
     text-decoration: none;
+    transition: opacity .3s ease;
+    margin-left: 18px;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }

@@ -1,8 +1,0 @@
-.places__paragraph-intro {
-    margin: 0;
-    padding-bottom: 24px;
-}
-
-.places__paragraph-intro:last-of-type {
-    padding-bottom: 0;
-}

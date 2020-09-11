@@ -4,6 +4,7 @@
     align-items: flex-end;
     min-height: 52px;
     max-width: 1280px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {

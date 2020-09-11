@@ -10,6 +10,9 @@ _________________________________
 3. Relative values 
 4. Media queries 
 
+#### Ссылка на GitGub Pages 
+https://samlantsman.github.io/russian-travel/
+
 **Доработка** 
 Исправить все замечения ревьюера :) 
 

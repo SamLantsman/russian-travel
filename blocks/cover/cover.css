@@ -1,25 +1,8 @@
 .cover {
     position: relative;
+    margin: 0 auto;
     margin-top: 102px;
     max-width: 1184px;
-    max-height: 740px;
-}
-
-.cover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2a2c2f;
-    opacity: 0.3;
-    transition: opacity 0.3s;
-    z-index: 0;
-}
-
-.cover:hover::before {
-    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

@@ -2,4 +2,9 @@
     color: white;
     font-size: 18px;
     line-height: 22px;
+    transition: opacity .3s ease;
+}
+
+.places__website-link:hover {
+    opacity: .8;
 }

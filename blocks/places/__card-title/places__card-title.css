@@ -4,6 +4,7 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
+    grid-area: "places__card-title"
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,5 +27,12 @@
         font-size: 32px;
         line-height: 35px;
         padding: 0 16px;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__card-title {
+        justify-self: start;
     }
 }

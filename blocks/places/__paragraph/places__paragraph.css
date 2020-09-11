@@ -1,0 +1,16 @@
+.places__paragraph {
+    margin: 0;
+    max-width: 484px;
+    padding-bottom: 24px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+}
+
+.places__paragraph:nth-child(2) {
+    padding-bottom: 24px;
+}
+
+.places__paragraph:last-of-type {
+    padding-bottom: 0;
+}

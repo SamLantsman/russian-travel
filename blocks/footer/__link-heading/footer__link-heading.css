@@ -1,11 +1,16 @@
 .footer__link-heading {
     margin: 0;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+
+.footer__link-heading:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 743px) {
     .footer__link-heading {
         font-size: 24px;
         line-height: 24px;
-        margin-bottom: 32px;
     }
 }
