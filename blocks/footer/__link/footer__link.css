@@ -1,14 +1,12 @@
 .footer__link {
-    color: white;
+    display: flex;
     margin: 0;
     padding: 0;
-    margin-right: 18px;
-    text-decoration: none;
     list-style-type: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 684px) {
     .footer__link {
-        margin-bottom: 32px;
+        flex-direction: column;
     }
 }
